@@ -60,7 +60,7 @@ pip install -r requirements.txt
 ### 3. Generate the model (if not included)
 
 ```bash
-python scripts/generate_model.py
+python generate_model.py
 ```
 
 ---
