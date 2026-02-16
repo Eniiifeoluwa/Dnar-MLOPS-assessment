@@ -44,8 +44,8 @@ ml-inference-service/
 ### 1. Clone the repo
 
 ```bash
-git clone <your-repo-url>
-cd ml-inference-service
+git clone https://github.com/Eniiifeoluwa/Dnar-MLOPS-assessment.git
+cd "your base folder" for instance, here , it is ml-inference-service
 ```
 
 ### 2. Install dependencies (local Python environment)
