@@ -6,7 +6,7 @@ from sklearn.ensemble import RandomForestClassifier
 data = load_iris()
 X, y = data.data, data.target
 
-# Train simple classifier
+# Train Random Forest classifier 
 model = RandomForestClassifier(n_estimators=50, random_state=42)
 model.fit(X, y)
 

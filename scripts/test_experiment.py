@@ -90,17 +90,14 @@ def main():
                   f"Confidence: {result['confidence']:.3f}")
         print()
     
-    # Error handling example
+    # Error handling
     print("6. Invalid Request (should fail)")
     try:
         predict(features=[5.1, 3.5], request_id="invalid-001")
     except Exception as e:
         print(f"   Caught exception: {e}")
-    print()
+    print("Example requests completed.")
     
-    print("=" * 50)
-    print("All examples completed!")
-    print("=" * 50)
 
 
 if __name__ == "__main__":
